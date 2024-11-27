@@ -1,7 +1,7 @@
 /* DOKUWIKI:include_once jsonTree.js */
 
 (function () {
-    const codeblocks = document.querySelectorAll('pre.code.json');
+    const codeblocks = document.querySelectorAll('pre.code:not(.file).json');
     codeblocks.forEach((codeblock) => {
         try {
             const json = JSON.parse(codeblock.innerText);
