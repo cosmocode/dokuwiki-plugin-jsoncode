@@ -1,7 +1,7 @@
 base   jsoncode
 author Andreas Gohr
 email  dokuwiki@cosmocode.de
-date   2024-11-14
+date   2024-11-27
 name   jsoncode plugin
 desc   View JSON data in an expandable tree
 url    https://www.dokuwiki.org/plugin:jsoncode
